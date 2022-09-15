@@ -4,7 +4,7 @@ import axios from "axios";
 import alunosGriffindorImg from "../img/grifinoria-neutro.jpg";
 function ApiGryffindor() {
   const [alunosGriffindor, setAlunosGriffindor] = useState([]);
-  const url = "http://hp-api.herokuapp.com/api/characters";
+  const url = "https://hp-api.herokuapp.com/api/characters";
 
   useEffect(() => {
     axios

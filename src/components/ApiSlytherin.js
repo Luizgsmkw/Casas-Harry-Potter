@@ -5,7 +5,7 @@ import alunosSlytherinImg from "../img/sonserina-neutro.jpg";
 
 function ApiSlytherin() {
   const [alunosSlytherin, setAlunosSlytherin] = useState([]);
-  const url = "http://hp-api.herokuapp.com/api/characters";
+  const url = "https://hp-api.herokuapp.com/api/characters";
 
   useEffect(() => {
     axios

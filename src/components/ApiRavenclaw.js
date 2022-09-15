@@ -5,7 +5,7 @@ import alunosRavenclawImg from "../img/corvinal-neutro.jpg";
 
 function ApiRavenclaw() {
   const [alunosRavenclaw, setAlunosRavenclaw] = useState([]);
-  const url = "http://hp-api.herokuapp.com/api/characters";
+  const url = "https://hp-api.herokuapp.com/api/characters";
 
   useEffect(() => {
     axios

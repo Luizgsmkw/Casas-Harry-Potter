@@ -4,7 +4,7 @@ import axios from "axios";
 import alunosHufflepuffImg from "../img/lufa-lufa-neutro.jpg";
 function ApiHufflepuff() {
   const [alunosHufflepuff, setAlunosHufflepuf] = useState([]);
-  const url = "http://hp-api.herokuapp.com/api/characters";
+  const url = "https://hp-api.herokuapp.com/api/characters";
   useEffect(() => {
     axios
       .get(url)
