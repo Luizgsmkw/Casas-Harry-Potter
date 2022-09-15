@@ -37,5 +37,4 @@ border-radius: 6%;
 
 export const P = styled.p `
 text-align: center;
-
 `
